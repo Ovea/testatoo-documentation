@@ -1,0 +1,37 @@
+== Design et Architecture
+
+'''
+
+[ditaa]
+....
+                 +---------------+   utilise  +----------+
+                 | Testatoo core |<-----------| Testatoo |
+                 | ( UI domain ) |            |   DSL    |
+                 +---------------+            +----------+
+                        ^                           ^
+                        | hérite                    |  utilise
+                        |                           |
+                   +----------+                /---------\
+                   |  Bundle  |                |  Tests  |
+                   +----------+                |         |
+                   |  Html5   |                \---------/
+                   +----------+
+                        ^
+                        | hérite
+                        |
+          +++++++++++++++++++++++++++++++++++++++++++++++
+          |             |               |               |
+    +----------+    +---------+    +---------+     +----------+
+    |  Bundle  |    | Bundle  |    | Bundle  |     |  Bundle  |
+    +----------+    +---------+    +---------+     +----------+
+    |  Angular |    | Polymer |    |Bootstrap|     |  Autre   |
+    |  Material|    | Material|    |         |     |Spécifique|
+    +----------+    +---------+    +---------+     +----------+
+....
+
+Testatoo est construit au dessus de http://www.seleniumhq.org/[Selenium, role="external", window="_blank"], et peut donc
+fonctionner avec n'importe quel navigateur supporté par http://www.seleniumhq.org/about/platforms.jsp[Selenium, role="external", window="_blank"] (Edge, Chrome, Firefox, Safari).
+
+Ainsi, si Testatoo fournit une couche suplémentaire plus commode et productive, il reste possible en tout temps d'utiliser WebDriver directement si nécessaire.
+
+Testatoo ajoute a WebDriver un puissant DSL au travers de Groovy tout en conservant les avantages d'un domain fortement typé.

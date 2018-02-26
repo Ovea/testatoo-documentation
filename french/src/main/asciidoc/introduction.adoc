@@ -2,39 +2,20 @@
 
 '''
 
-Testatoo is a web user interface testing tool. It's the result of numerous real-world observations of developers in the trenches in the area of GUI testing.
-Working for many years to promote the *TDD/BDD* approaches, we often faced difficulties in their implementation for the graphical layer of applications.
+Testatoo est un outil de test d'interface graphique. Il est le fruit de l'expérience de developpeurs passionnés des approches
+*TDD/BDD* et frustré de ne pas trouver d'outils permettant une approche *"TEST FIRST"*
 
-The *"TEST FIRST"* principle excludes all scenario recorder based approaches that only allow you to write "at posteriori" tests.
-Our experience has taught us that this path is a dead-end (but we reserve this for another discussion).
+Testatoo permet de couvrir deux grand type de test associé au interface graphique a savoir:
+ - Les tests de spécifications UI
+ - Les Test fonctionels
 
-Another problem is UI tests are brittle and costly! We do think that this is due to the lack of abstraction in existing UI testing tools.
+Testatoo ne couvre en aucun cas les tests unitaires et s'inscrit dans le haut de la pyramide des tests [https://martinfowler.com/bliki/TestPyramid.html]
+Testatoo comme vous le verrait tres rapidement permet un retour sur investissement impressionant pour ce type de test généralement tres couteux.
 
-Testatoo provides, on one hand, an abstraction of the UI business domain through an expressive API and, on the other hand, a way to express this domain via a DSL (a button semantically stays a button, whatever the technology).
-With Testatoo, you can therefore write tests with a seldom achieved level of expressiveness and make those tests INDEPENDENT of the underlying technology.
+La force de Testatoo réside dans la force de son abstraction qui est la meilleur garantie pour une pérénité des tests.
+Avec Testatoo vos tests reste independant des modification sous jacente de vos choix technologiques.
 
-Testatoo can therefore transform the tests in real assets, present throughout the life of the application and always in tune with the latest version of the application.
+Associé a cette absatrion Testatoo est couple a un puissant DSL qui permet l'écriture dans un language naturel.
 
-Testatoo is an opinionated tool. It forces the user to see and use the domain layer as a composition and aggregation of UI components (in Testatoo, everything is a UI component).
-
-Testatoo is a library to write functional tests. Functional tests means **SPECIFICATIONS**.
 
 '''
-
-As a **SPECIFIER**, I want to express my test (intention) *BEFORE* UI is coded. So, if the intention is to have
-a page with two radio buttons to select the gender (male or female), the test can be expressed like this :
-
-----
-include::{basepath}/test/resources/doc/spec.txt[]
-----
-
-The Testatoo syntax to express this specification is:
-
-[source,groovy,indent=0]
-[subs="verbatim,attributes"]
-----
-include::{basepath}/test/groovy/doc/spec/SpecTest.groovy[tags=specMethod]
-----
-
-So we can see that *Testatoo is close to the natural language.*
-

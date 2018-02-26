@@ -41,6 +41,7 @@
 
     <properties>
         <jdk.version>1.6</jdk.version>
+        <testatoo.version>2.0.b28-SNAPSHOT</testatoo.version>
         <groovy.version>2.4.13</groovy.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -144,34 +145,6 @@
                     </executions>
                 </plugin>
                 <plugin>
-                    <groupId>com.mycila</groupId>
-                    <artifactId>license-maven-plugin</artifactId>
-                    <version>3.0</version>
-                    <configuration>
-                        <header>com/mycila/maven/plugin/license/templates/APACHE-2.txt</header>
-                        <properties>
-                            <owner>Ovea</owner>
-                            <email>d.avenante@gmail.com</email>
-                        </properties>
-                        <excludes>
-                            <exclude>**/README</exclude>
-                            <exclude>**/*.adoc</exclude>
-                            <exclude>src/test/resources/**</exclude>
-                            <exclude>src/main/resources/**</exclude>
-                            <exclude>src/test/webapp/css/**</exclude>
-                            <exclude>src/test/webapp/js/**</exclude>
-                            <exclude>src/test/webapp/fonts/**</exclude>
-                        </excludes>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <goals>
-                                <goal>check</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
-                <plugin>
                     <artifactId>maven-jar-plugin</artifactId>
                     <version>3.0.2</version>
                     <executions>
@@ -183,17 +156,13 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-
-        <plugins>
-
-        </plugins>
     </build>
 
     <dependencies>
         <dependency>
             <groupId>org.testatoo</groupId>
             <artifactId>testatoo</artifactId>
-            <version>2.0.b28-SNAPSHOT</version>
+            <version>${testatoo.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

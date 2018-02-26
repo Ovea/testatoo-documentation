@@ -1,19 +1,20 @@
-= Testatoo documentation
+= Testatoo Documentation
 :author: David Avenante, Stephanie Parisot
-:revnumber: 2.0.b27
 :toc: left
 :toclevels: 5
 :numbered: true
 :doctype: book
 :icons: font
 :homepage: https://www.testatoo.org
-:desc: This is the Testatoo documentation
+:desc: Documenation de Testatoo
 :imagesdir: images
 :basepath: ../../..
-:junit-version: 4.12
-:testato-version: 2.0.b27
 
 image::logo.svg[Testatoo,align="center"]
 
-include::en/introduction.adoc[]
+include::introduction.adoc[]
+
+include::design_et_architecture.adoc[]
+
+include::demarage_rapide.adoc[]
 
