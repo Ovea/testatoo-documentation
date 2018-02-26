@@ -22,7 +22,7 @@
 
     <groupId>org.testatoo</groupId>
     <artifactId>testatoo-documentation</artifactId>
-    <version>2.0.b28-SNAPSHOT</version>
+    <version>2.0.b1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Testatoo::Documentation</name>
@@ -41,7 +41,7 @@
 
     <properties>
         <jdk.version>1.6</jdk.version>
-        <testatoo.version>2.0.b28-SNAPSHOT</testatoo.version>
+        <testatoo.version>2.0.b28</testatoo.version>
         <groovy.version>2.4.13</groovy.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
