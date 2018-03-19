@@ -1,0 +1,9 @@
+== Le Langage de Testatoo
+
+Testatoo permet de manipuler et d'interagir avec l'interface graphique de deux facons:
+
+* Par le mécanisme classique d'<<interaction>> avec les élements tels que le clavier et la souris
+* Par intention
+
+C'est cette derniere ...
+

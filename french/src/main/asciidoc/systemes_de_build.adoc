@@ -1,0 +1,69 @@
+== Systèmes de Build
+'''
+
+=== Maven
+
+Ci dessous un exemple fonctionel d'un pom.xml
+
+[source,xml]
+-------------------------------------------------------------------------------
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.testatoo</groupId>
+    <artifactId>testatoo-sample</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <name>Testatoo::Sample</name>
+
+    <properties>
+        <groovy.version>2.4.13</groovy.version>
+        <jdk.version>1.6</jdk.version>
+        <testatoo.version>2.0.b28</testatoo.version>
+        <selenium.version>3.9.1</selenium.version>
+        <cucumber.version>1.2.5</cucumber.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>${groovy.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testatoo</groupId>
+            <artifactId>testatoo</artifactId>               <!--1-->
+            <version>${testatoo.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testatoo</groupId>
+            <artifactId>testatoo-html5-bundle</artifactId>  <!--2-->
+            <version>1.0.b1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>       <!--3-->
+            <version>2.0.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
+
+-------------------------------------------------------------------------------
+
+<1> Testatoo core (Objets du Domaine + Langage)
+<2> Le module Html5 de Testatoo
+<3> Un plugin pour récupérer les binaires webdrivers

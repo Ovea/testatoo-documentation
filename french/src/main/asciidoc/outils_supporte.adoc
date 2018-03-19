@@ -1,0 +1,18 @@
+== Support par les Outils
+
+Testatoo est ecrit en Groovy avec un usage intensif du typage fort. La partie dynamique du langage
+n'est utilisé que pour créer le DSL. Ainsi Testatoo est supporté part tout les outils supportant le
+langage Groovy
+
+=== IDE
+
+==== IntelliJ
+
+IntelliJ a un tres bon niveau de support du langage Groovy mais ne detect pas un projet maven avec du grooy naturelement.
+Ajouter le plugin suivant a votre IDE favoris vous facilitera grandement la tache.
+
+TODO => ajouter gmaven plugin de intellij + gmven plus dans pom.xml
+
+
+
+

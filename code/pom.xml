@@ -1,0 +1,67 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.testatoo</groupId>
+        <artifactId>testatoo-documentation</artifactId>
+        <version>2.0.b1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>testatoo-documentation-code</artifactId>
+
+    <name>Testatoo::Documentation::Code</name>
+    <description>Testatoo Documentation Code</description>
+
+    <properties>
+        <groovy.version>2.4.13</groovy.version>
+        <jdk.version>1.6</jdk.version>
+        <testatoo.version>2.0.b28</testatoo.version>
+        <selenium.version>3.9.1</selenium.version>
+        <cucumber.version>1.2.5</cucumber.version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.gmavenplus</groupId>
+                <artifactId>gmavenplus-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>${groovy.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testatoo</groupId>
+            <artifactId>testatoo</artifactId>
+            <version>${testatoo.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testatoo</groupId>
+            <artifactId>testatoo-html5-bundle</artifactId>
+            <version>1.0.b1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>2.0.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

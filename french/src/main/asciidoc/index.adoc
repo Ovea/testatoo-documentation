@@ -8,7 +8,7 @@
 :homepage: https://www.testatoo.org
 :desc: Documenation de Testatoo
 :imagesdir: images
-:basepath: ../../..
+:codepath: ../../../..
 
 image::logo.svg[Testatoo,align="center"]
 
@@ -18,3 +18,14 @@ include::design_et_architecture.adoc[]
 
 include::demarage_rapide.adoc[]
 
+include::objets_du_domaine.adoc[]
+
+include::langage.adoc[]
+
+include::interactions.adoc[]
+
+include::references.adoc[]
+
+include::systemes_de_build.adoc[]
+
+include::outils_supporte.adoc[]

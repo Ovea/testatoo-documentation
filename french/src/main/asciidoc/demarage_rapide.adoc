@@ -1,24 +1,25 @@
 == Démmarage Rapide
+'''
 
-Testatoo fournit deux demarreurs rapide.
+Testatoo fournit deux kit de démarage rapide.
 
- - Un gabarit de démarage vide pour partir de 0 dans votre projet.
- - Une application exemple construite a partir du gabarit pour vous donner un exemple des bonne pratiques.
+* https://github.com/Ovea/testatoo-starter[Un gabarit de démarage vide pour partir de 0 dans votre projet].
+* https://github.com/Ovea/testatoo-banking[Une application exemple construite a partir du gabarit pour vous donner un exemple des bonne pratiques].
 
-=== Partir de 0
-
-https://github.com/Ovea/testatoo-starter
-
-
-Le but de ce kut de demarage est de servie de template de base pour demarrer un projet de 0.
-Il contient :
-
- - Un module de tests
- - un mddule de documentation.
-
- Ces deux modules sont configure pour permettre un approche BDD avec une configuration:
- Testatoo + Cucumber + Asciidoctor
-
-
-
-=== Une Application pour Comprendre Testatoo
+//=== Partir de 0
+//
+//https://github.com/Ovea/testatoo-starter
+//
+//
+//Le but de ce kit de demarage est de servie de template de base pour demarrer un projet de 0.
+//Il contient :
+//
+// - Un module de tests
+// - un mddule de documentation.
+//
+// Ces deux modules sont configure pour permettre un approche BDD avec une configuration:
+// Testatoo + Cucumber + Asciidoctor
+//
+//
+//
+//=== Une Application pour Comprendre Testatoo

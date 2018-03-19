@@ -1,5 +1,4 @@
 == Design et Architecture
-
 '''
 
 [ditaa]
@@ -25,12 +24,12 @@
     |  Bundle  |    | Bundle  |    | Bundle  |     |  Bundle  |
     +----------+    +---------+    +---------+     +----------+
     |  Angular |    | Polymer |    |Bootstrap|     |  Autre   |
-    |  Material|    | Material|    |         |     |Spécifique|
+    |  Material|    | Material|    |         |     |          |
     +----------+    +---------+    +---------+     +----------+
 ....
 
-Testatoo est construit au dessus de http://www.seleniumhq.org/[Selenium, role="external", window="_blank"], et peut donc
-fonctionner avec n'importe quel navigateur supporté par http://www.seleniumhq.org/about/platforms.jsp[Selenium, role="external", window="_blank"] (Edge, Chrome, Firefox, Safari).
+Testatoo est construit au dessus de http://www.seleniumhq.org/[Selenium], et peut donc
+fonctionner avec n'importe quel navigateur supporté par ce dernier http://www.seleniumhq.org/about/platforms.jsp[(Edge, Chrome, Firefox, Safari)].
 
 Ainsi, si Testatoo fournit une couche suplémentaire plus commode et productive, il reste possible en tout temps d'utiliser WebDriver directement si nécessaire.
 
