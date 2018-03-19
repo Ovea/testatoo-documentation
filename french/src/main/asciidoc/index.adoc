@@ -18,6 +18,8 @@ include::design_et_architecture.adoc[]
 
 include::demarage_rapide.adoc[]
 
+include::installation.adoc[]
+
 include::objets_du_domaine.adoc[]
 
 include::langage.adoc[]
