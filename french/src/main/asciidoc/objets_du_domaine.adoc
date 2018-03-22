@@ -1,42 +1,56 @@
 == Les Objets du Domaine
 '''
 
-Testatoo fourni un ensemble d'objets du domaine du UI. C'est le coeur du domain de UI qui est ainsi disponible pour
+Testatoo fournit un ensemble d'objets du domaine du UI. C'est le coeur du domaine de UI qui est ainsi disponible pour
 faciliter grandement l'écriture de tests.
 
-Ces object sont les suivants
+Ces objets sont les suivants :
 
-[cols="1*", options="header"]
+[cols="3*", options="header"]
 |===
-|Nom du composant
+3+|Nom du composant
+
 |Form
+|Panel
+|Heading
+
 |Radio
 |<<Button>>
 |Checkbox
+
 |Dropdown
 |Group
-|Heading
-|Image
-|Item
-|Link
 |ListBox
+
+|Item
 |ListView
-|Panel
+|
+
 |DataGrid
 |Row
 |Column
+
 |Cell
+|Link
+|Image
+
 |TextField
 |EmailField
 |PasswordField
+
 |ColorField
+|SearchField
+|URLField
+
 |DateField
 |MonthField
+|WeekField
+
 |NumberField
 |PhoneField
 |RangeField
-|SearchField
-|TimeFiled
-|URLField
-|WeekField
+
+|TimeField
+|
+|
 |===

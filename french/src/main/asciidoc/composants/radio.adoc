@@ -1,0 +1,18 @@
+[#Radio]
+=== Radio
+
+image::components/Radio.png[Radio]
+
+Un radio-bouton permet à l'utilisateur de faire un choix exclusif parmi une série d'options.
+
+[cols="3,3,3", options="header"]
+|===
+|Etats
+|Propriétés
+|Intentions
+
+|checked, unchecked
+|label
+|check
+|===
+

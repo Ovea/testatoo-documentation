@@ -1,0 +1,19 @@
+[#Form]
+=== Form
+
+image::components/Form.png[Form]
+
+Un form permet à l'utilisateur d'entrer des informations sous différentes formes (champs de saisie, radio boutons, bouton de soumission du formulaire, ...)
+
+[cols="3,3,3", options="header"]
+|===
+|Etats
+|Propriétés
+|Intentions
+
+|-
+|valid, invalid
+|reset, submit
+|===
+
+

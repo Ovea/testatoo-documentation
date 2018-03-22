@@ -6,7 +6,7 @@
 :doctype: book
 :icons: font
 :homepage: https://www.testatoo.org
-:desc: Documenation de Testatoo
+:desc: Documentation de Testatoo
 :imagesdir: images
 :codepath: ../../../..
 

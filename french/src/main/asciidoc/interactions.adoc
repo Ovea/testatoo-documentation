@@ -4,12 +4,12 @@
 
 ==== La Souris
 
-La classe *org.testatoo.core.input.Mouse* permet les interaction sur les composants au traver de la souris.
+La classe *org.testatoo.core.input.Mouse* permet les interactions sur les composants au travers de la souris.
 
-Il n'est généralement pas nécessaire d'importer cette class dans votre code de test car l'ensemle des interactions
-sont disponibles par délégation à la souris au travers de la classe *org.testatoo.core.Testatoo*
+Il n'est généralement pas nécessaire d'importer cette classe dans votre code de test car l'ensemble des interactions
+sont disponibles par délégation à la souris au travers de la classe *org.testatoo.core.Testatoo*.
 
-Les actions disponibles au travers de la souris sont:
+Les actions disponibles associées à la souris sont :
 
 [cols="5", options="header"]
 |===
@@ -23,7 +23,7 @@ Les actions disponibles au travers de la souris sont:
 
 |===
 
-*Examples:*
+*Exemples :*
 [source,groovy,indent=0]
 [subs="verbatim,attributes"]
 ----
@@ -32,20 +32,20 @@ include::{codepath}/code/src/test/groovy/org/testatoo/doc/ComponentsTest.groovy[
 
 ==== Le Clavier
 
-Comme pour la Souris Testatoo possède la classe *org.testatoo.core.input.Keyboard* pour gérer les interaction avec le clavier.
-Encore une fois ici elles sont directement utilisales au travers de la classe *org.testatoo.core.Testatoo*
+Comme pour la souris, Testatoo possède la classe *org.testatoo.core.input.Keyboard* pour gérer les interactions avec le clavier.
+Encore une fois celles-ci sont directement utilisables au travers de la classe *org.testatoo.core.Testatoo*.
 
-Pour les interactions avec le clavier Testatoo possède une approche élégante pour faciliter votre travail.
+Pour les interactions avec le clavier, Testatoo possède une approche élégante pour faciliter votre travail :
 
 [cols="1", options="header"]
 |===
-|Une seule méthode pour tout les cas de figures
+|Une seule méthode pour tous les cas de figure
 
 |*type(...)*
 
 |===
 
-*Examples:*
+*Exemples :*
 [source,groovy,indent=0]
 [subs="verbatim,attributes"]
 ----
@@ -54,4 +54,4 @@ include::{codepath}/code/src/test/groovy/org/testatoo/doc/ComponentsTest.groovy[
 
 ==== Les Doigts
 
-Testatoo ne supporte pas pour le moment les actions a partir des doigts de la main.
+Testatoo ne supporte pas pour le moment les actions à partir des doigts de la main.

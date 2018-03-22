@@ -3,7 +3,7 @@
 
 === Maven
 
-Ci dessous un exemple fonctionel d'un pom.xml
+Ci dessous un exemple fonctionnel d'un pom.xml
 
 [source,xml]
 -------------------------------------------------------------------------------
@@ -66,4 +66,4 @@ Ci dessous un exemple fonctionel d'un pom.xml
 
 <1> Testatoo core (Objets du Domaine + Langage)
 <2> Le module Html5 de Testatoo
-<3> Un plugin pour récupérer les binaires webdrivers
+<3> Un plugin pour récupérer les binaires webdriver

@@ -1,18 +1,21 @@
 == Introduction
+
 '''
 
 Testatoo est un outil de test d'interface graphique. Il est le fruit de l'expérience de développeurs passionnés des approches
-*TDD/BDD* et frustré de ne pas trouver d'outils ouvrant a une approche *"TEST FIRST"*
+*TDD/BDD* mais qui ne trouvaient pas les outils nécessaires à une approche de type *"TEST FIRST"*.
 
-Testatoo est né de cette volonte de permet de couvrir deux grand type de test associé au interface graphique à savoir:
+Testatoo est né afin de couvrir deux grands types de tests associés aux interfaces graphiques :
 
-* Les Tests de spécifications UI
-* Les Test fonctionels
+ - Les tests de spécifications UI
+ - Les tests fonctionnels
 
-Testatoo ne couvre en aucun cas les tests unitaires et s'inscrit dans le haut de la https://martinfowler.com/bliki/TestPyramid.html[pyramide des tests]
-Testatoo, comme vous le verrait très rapidement, permet un retour sur investissement impressionant pour ce type de test généralement tres couteux.
+Testatoo ne couvre en aucun cas les tests unitaires et s'inscrit dans le haut de la pyramide des tests [https://martinfowler.com/bliki/TestPyramid.html].
+Testatoo, comme vous le verrez très rapidement, permet un *retour sur investissement impressionnant* pour ce type de tests généralement très couteux.
 
-La force de Testatoo réside dans la force de son abstraction qui est la meilleur garantie pour une pérénité des tests.
-Avec Testatoo vos tests restent indépendant des modification sous jacente de vos choix technologiques.
+La force de Testatoo réside dans son abstraction qui est la meilleure *garantie de la pérénnité des tests*.
+Avec Testatoo, vos tests restent indépendants des modifications sous-jacentes liées à vos choix technologiques.
 
-Associé a cette abstaction Testatoo est couple a un puissant DSL qui permet l'écriture dans un language naturel.
+L'abstraction de Testatoo est couplée à un puissant DSL qui permet l'écriture des *tests dans un language naturel*.
+
+'''
