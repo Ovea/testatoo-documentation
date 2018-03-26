@@ -1,0 +1,15 @@
+[#Panel]
+=== Panel
+Un panel est une présentation d'informations regroupées pour être présentée à l'utilisateur.
+
+[cols="3,3,3", options="header"]
+|===
+|Etats
+|Propriétés
+|Intentions
+
+|-
+|title
+|-
+|===
+

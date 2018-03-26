@@ -1,0 +1,17 @@
+[#Heading]
+=== Heading
+
+image::components/Heading.png[Heading]
+
+Un heading permet à l'utilisateur d'associer un certain niveau de titre à une page ou un paragraphe.
+
+[cols="3,3,3", options="header"]
+|===
+|Etats
+|Propriétés
+|Intentions
+
+|-
+|text
+|-
+|===

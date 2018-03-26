@@ -1,10 +1,10 @@
-== Démmarage Rapide
+== Démarrage Rapide
 '''
 
-Testatoo fournit deux kit de démarage rapide.
+Testatoo fournit deux moyens pour démarrer rapidement votre projet :
 
-* https://github.com/Ovea/testatoo-starter[Un gabarit de démarage vide pour partir de 0 dans votre projet].
-* https://github.com/Ovea/testatoo-banking[Une application exemple construite a partir du gabarit pour vous donner un exemple des bonne pratiques].
+* https://github.com/Ovea/testatoo-starter[Un gabarit de démarrage vide pour partir de 0 dans votre projet].
+* https://github.com/Ovea/testatoo-banking[Une application exemple construite à partir du gabarit pour vous donner un exemple des bonnes pratiques à appliquer].
 
 //=== Partir de 0
 //

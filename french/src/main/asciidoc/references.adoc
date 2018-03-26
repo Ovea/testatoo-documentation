@@ -1,7 +1,14 @@
-== Références
+== Composants
 '''
+[options="header"]
+|===
+|Propriétés communes à tous les composants
 
-Todo expliquer les colonnes State/Properties/Intentions
-
-
+|enabled, disabled, available, missing, hidden, visible, contains, displays
+|===
+include::composants/form.adoc[]
+include::composants/panel.adoc[]
+include::composants/heading.adoc[]
+include::composants/radio.adoc[]
 include::composants/button.adoc[]
+
