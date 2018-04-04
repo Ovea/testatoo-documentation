@@ -2,7 +2,7 @@
 == Interactions
 '''
 
-==== La Souris
+=== La Souris
 
 La classe *org.testatoo.core.input.Mouse* permet les interactions sur les composants au travers de la souris.
 
@@ -30,7 +30,7 @@ Les actions disponibles associées à la souris sont :
 include::{codepath}/code/src/test/groovy/org/testatoo/doc/ComponentsTest.groovy[tags=mouse]
 ----
 
-==== Le Clavier
+=== Le Clavier
 
 Comme pour la souris, Testatoo possède la classe *org.testatoo.core.input.Keyboard* pour gérer les interactions avec le clavier.
 Encore une fois celles-ci sont directement utilisables au travers de la classe *org.testatoo.core.Testatoo*.
@@ -52,6 +52,6 @@ Pour les interactions avec le clavier, Testatoo possède une approche élégante
 include::{codepath}/code/src/test/groovy/org/testatoo/doc/ComponentsTest.groovy[tags=keyboard]
 ----
 
-==== Les Doigts
+=== Les Doigts
 
 Testatoo ne supporte pas pour le moment les actions à partir des doigts de la main.

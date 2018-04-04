@@ -8,6 +8,8 @@ Testatoo permet de manipuler l'interface graphique et d'interagir avec les compo
 === États
 Les composants Testatoo possèdent des *états* qu'il est possible de tester grâce à la fonction *'be'*  :
 
+icon:comment[] This is a comment icon
+
 [NOTE]
 ====
 *composant.should { be _état_ }*
@@ -19,7 +21,6 @@ _exemples_ :
 - champ_saisie.should { be empty }
 
 - formulaire.should { be valid }
-
 ====
 
 === Propriétés

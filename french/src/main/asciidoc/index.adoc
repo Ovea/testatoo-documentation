@@ -16,7 +16,7 @@ include::introduction.adoc[]
 
 include::design_et_architecture.adoc[]
 
-include::demarage_rapide.adoc[]
+include::demarrage_rapide.adoc[]
 
 include::installation.adoc[]
 
