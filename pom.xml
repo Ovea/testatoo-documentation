@@ -89,6 +89,7 @@
                             <require>asciidoctor-diagram</require>
                         </requires>
                         <attributes>
+                            <codepath>${basedir}/../code/src/test/groovy/org/testatoo/doc/</codepath>
                             <source-highlighter>coderay</source-highlighter>
                             <coderay-linenums-mode>table</coderay-linenums-mode>
                             <toc>left</toc>

@@ -20,5 +20,5 @@ Un bouton porte un texte qui décrit l'opération attachée au bouton.
 [source,groovy,indent=0]
 [subs="verbatim,attributes"]
 ----
-include::{codepath}/../code/src/test/groovy/org/testatoo/doc/ComponentsTest.groovy[tags=button]
+include::{codepath}/ComponentsTest.groovy[tags=button]
 ----

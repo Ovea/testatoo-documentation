@@ -7,8 +7,6 @@
 :icons: font
 :homepage: https://www.testatoo.org
 :desc: Documentation de Testatoo
-:imagesdir: images
-:codepath: ../../../..
 
 image::logo.svg[Testatoo,align="center"]
 

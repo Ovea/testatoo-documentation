@@ -27,7 +27,7 @@ Les actions disponibles associées à la souris sont :
 [source,groovy,indent=0]
 [subs="verbatim,attributes"]
 ----
-include::{codepath}/code/src/test/groovy/org/testatoo/doc/ComponentsTest.groovy[tags=mouse]
+include::{codepath}/ComponentsTest.groovy[tags=mouse]
 ----
 
 === Le Clavier
@@ -49,7 +49,7 @@ Pour les interactions avec le clavier, Testatoo possède une approche élégante
 [source,groovy,indent=0]
 [subs="verbatim,attributes"]
 ----
-include::{codepath}/code/src/test/groovy/org/testatoo/doc/ComponentsTest.groovy[tags=keyboard]
+include::{codepath}/ComponentsTest.groovy[tags=keyboard]
 ----
 
 === Les Doigts
