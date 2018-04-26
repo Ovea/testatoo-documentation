@@ -16,9 +16,9 @@
     <url>http://www.testatoo.org</url>
 
     <scm>
-        <connection>scm:git:git@github.com:Ovea/testatoo-documentation.git</connection>
-        <developerConnection>scm:git:git@github.com:Ovea/testatoo-documentation.git</developerConnection>
-        <url>http://github.com/Ovea/testatoo-documentation</url>
+        <connection>scm:git:git@github.com:Testatoo/testatoo-documentation.git</connection>
+        <developerConnection>scm:git:git@github.com:Testatoo/testatoo-documentation.git</developerConnection>
+        <url>http://github.com/Testatoo/testatoo-documentation</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -84,6 +84,7 @@
                     </dependencies>
                     <configuration>
                         <preserveDirectories>true</preserveDirectories>
+                        <!--<imagesDir>images</imagesDir>-->
                         <backend>html5</backend>
                         <requires>
                             <require>asciidoctor-diagram</require>

@@ -1,3 +1,36 @@
 == Installation
 
+Testatoo est un projet ecrit en http://groovy-lang.org/[Groovy] et l'ensemle de artefacts nécessaire a sont utilisation
+sont disponible dans le depot maven centrale.
+
+=== Avec Maven
+
+
+[source,xml]
+-------------------------------------------------------------------------------
+    <dependencies>
+        <dependency>
+            <groupId>org.testatoo</groupId>
+            <artifactId>testatoo</artifactId>               <!--1-->
+            <version>${testatoo.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testatoo</groupId>
+            <artifactId>testatoo-html5-bundle</artifactId>  <!--2-->
+            <version>1.0.b1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
+
+-------------------------------------------------------------------------------
+
+<1> Testatoo core (Objets du Domaine + Langage)
+<2> Le module Html5 de Testatoo
+
+Pour plus de details vous pouvez vous référer à la section <<Systèmes de Build>>
+
+=== Avec Graddle
+
 TODO

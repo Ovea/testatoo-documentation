@@ -1,57 +1,57 @@
-== Le Langage de Testatoo
+=== Le Langage
 
-Testatoo permet de manipuler l'interface graphique et d'interagir avec les composants :
-
-* soit en utilisant le mécanisme classique d'<<interaction>> avec les éléments tels que le clavier et la souris
-* soit en utilisant les états, propriétés et intentions fournis pour chaque composant.
-
-=== États
-Les composants Testatoo possèdent des *états* qu'il est possible de tester grâce à la fonction *'be'*  :
-
-icon:comment[] This is a comment icon
-
-[NOTE]
-====
-*composant.should { be _état_ }*
-
-_exemples_ :
-
-- radio_bouton.should { be unchecked }
-
-- champ_saisie.should { be empty }
-
-- formulaire.should { be valid }
-====
-
-=== Propriétés
-Les composants Testatoo possèdent des *propriétés* qu'il est possible de tester grâce à la fonction *'have'* :
-
-[NOTE]
-====
-*composant.should { have _propriété (xxxx)_ }*
-
-_exemples_ :
-
-- bouton.should { have label ('Soumettre') }
-
-- liste_pays.should { have selectedItem ('CANADA') }
-
-- champ_saisie.should { have placeholder ('T999-9999') }
-
-====
-=== Intentions
-Les composants Testatoo sont associés à des *intentions* que l'on peut invoquer par :
-
-[NOTE]
-====
-*_intention_ composant*   _ou_   *on composant _intention xxxx_*
-
-_exemples_ :
-
-- clear textfield
-
-- check radio_bouton
-
-- on liste_pays select 'CANADA'
-
-====
+//Testatoo permet de manipuler l'interface graphique et d'interagir avec les composants :
+//
+//* soit en utilisant le mécanisme classique d'<<interaction>> avec les éléments tels que le clavier et la souris
+//* soit en utilisant les états, propriétés et intentions fournis pour chaque composant.
+//
+//=== États
+//Les composants Testatoo possèdent des *états* qu'il est possible de tester grâce à la fonction *'be'*  :
+//
+//icon:comment[] This is a comment icon
+//
+//[NOTE]
+//====
+//*composant.should { be _état_ }*
+//
+//_exemples_ :
+//
+//- radio_bouton.should { be unchecked }
+//
+//- champ_saisie.should { be empty }
+//
+//- formulaire.should { be valid }
+//====
+//
+//=== Propriétés
+//Les composants Testatoo possèdent des *propriétés* qu'il est possible de tester grâce à la fonction *'have'* :
+//
+//[NOTE]
+//====
+//*composant.should { have _propriété (xxxx)_ }*
+//
+//_exemples_ :
+//
+//- bouton.should { have label ('Soumettre') }
+//
+//- liste_pays.should { have selectedItem ('CANADA') }
+//
+//- champ_saisie.should { have placeholder ('T999-9999') }
+//
+//====
+//=== Intentions
+//Les composants Testatoo sont associés à des *intentions* que l'on peut invoquer par :
+//
+//[NOTE]
+//====
+//*_intention_ composant*   _ou_   *on composant _intention xxxx_*
+//
+//_exemples_ :
+//
+//- clear textfield
+//
+//- check radio_bouton
+//
+//- on liste_pays select 'CANADA'
+//
+//====

@@ -29,8 +29,8 @@
 ....
 
 Testatoo est construit au dessus de http://www.seleniumhq.org/[Selenium], et peut donc
-fonctionner avec n'importe quel navigateur supporté par ce dernier http://www.seleniumhq.org/about/platforms.jsp[(Edge, Chrome, Firefox, Safari)].
+fonctionner avec n'importe quel navigateur supporté par ce dernier http://www.seleniumhq.org/about/platforms.jsp[(Edge, Chrome, Firefox, Safari...)].
 
 Ainsi, si Testatoo fournit une couche supplémentaire plus commode et productive, il reste possible en tout temps d'utiliser WebDriver directement si nécessaire.
 
-Testatoo ajoute à WebDriver un puissant DSL au travers de Groovy tout en conservant les avantages d'un domaine fortement typé.
+Testatoo ajoute à WebDriver un puissant DSL au travers de http://groovy-lang.org/[Groovy] tout en conservant les avantages d'un domaine fortement typé.

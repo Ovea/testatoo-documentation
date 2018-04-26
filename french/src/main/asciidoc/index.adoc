@@ -8,7 +8,7 @@
 :homepage: https://www.testatoo.org
 :desc: Documentation de Testatoo
 
-image::logo.svg[Testatoo,align="center"]
+image::logo.jpg[Testatoo,align="center"]
 
 include::introduction.adoc[]
 
@@ -18,11 +18,7 @@ include::demarrage_rapide.adoc[]
 
 include::installation.adoc[]
 
-include::objets_du_domaine.adoc[]
-
-include::langage.adoc[]
-
-include::interactions.adoc[]
+include::concepts.adoc[]
 
 include::references.adoc[]
 

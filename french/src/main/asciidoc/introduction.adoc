@@ -7,15 +7,13 @@ Testatoo est un outil de test d'interface graphique. Il est le fruit de l'expér
 
 Testatoo est né afin de couvrir deux grands types de tests associés aux interfaces graphiques :
 
- - Les tests de spécifications UI
- - Les tests fonctionnels
+* Les tests de spécifications UI
+* Les tests fonctionnels
 
-Testatoo ne couvre en aucun cas les tests unitaires et s'inscrit dans le haut de la pyramide des tests [https://martinfowler.com/bliki/TestPyramid.html].
+Testatoo ne couvre en aucun cas les tests unitaires et s'inscrit dans le haut de la https://martinfowler.com/bliki/TestPyramid.html[pyramide des tests].
 Testatoo, comme vous le verrez très rapidement, permet un *retour sur investissement impressionnant* pour ce type de tests généralement très couteux.
 
 La force de Testatoo réside dans son abstraction qui est la meilleure *garantie de la pérénnité des tests*.
 Avec Testatoo, vos tests restent indépendants des modifications sous-jacentes liées à vos choix technologiques.
 
 L'abstraction de Testatoo est couplée à un puissant DSL qui permet l'écriture des *tests dans un language naturel*.
-
-'''

@@ -3,23 +3,17 @@
 
 Testatoo fournit deux moyens pour démarrer rapidement votre projet :
 
-* https://github.com/Ovea/testatoo-starter[Un gabarit de démarrage vide pour partir de 0 dans votre projet].
-* https://github.com/Ovea/testatoo-banking[Une application exemple construite à partir du gabarit pour vous donner un exemple des bonnes pratiques à appliquer].
+=== Avec un des gabarits
 
-//=== Partir de 0
-//
-//https://github.com/Ovea/testatoo-starter
-//
-//
-//Le but de ce kit de demarage est de servie de template de base pour demarrer un projet de 0.
-//Il contient :
-//
-// - Un module de tests
-// - un mddule de documentation.
-//
-// Ces deux modules sont configure pour permettre un approche BDD avec une configuration:
-// Testatoo + Cucumber + Asciidoctor
-//
-//
-//
-//=== Une Application pour Comprendre Testatoo
+Ces https://github.com/Testatoo/testatoo-starter[gabarits] donnent:
+
+* https://github.com/Testatoo/testatoo-starter/tree/master/junit4[Un gabarit JUnit4]
+* https://github.com/Testatoo/testatoo-starter/tree/master/junit4-cucumber[Un gabarit JUnit4 avec une integration a Cucumber]
+* https://github.com/Testatoo/testatoo-starter/tree/master/junit5[Un gabarit JUnit 5]
+* https://github.com/Testatoo/testatoo-starter/tree/master/junit5-cucumber[Un gabarit JUnit5 avec une integration a Cucumber]
+
+=== A partir d'un projet exemple
+
+Le projet https://github.com/Testatoo/testatoo-todolist[TodoList] et un exemple concret d'utilisation de la puissance, l'expressivité et la facilité d'utilisation
+de Testatoo. Il est la démonstraion de notre vision d'une approche de type BDD.
+

@@ -1,0 +1,61 @@
+=== Le Domaine
+'''
+
+Testatoo part du postulat que l'interface graphique est un langage visuel. Comme tout langage il possede un champs lexical.
+
+
+
+
+//Testatoo fournit un ensemble d'objets du domaine du UI. C'est le coeur du domaine de UI qui est ainsi disponible pour
+//faciliter grandement l'écriture de tests.
+//
+//Ces objets sont les suivants :
+//
+//[cols="3*", options="header"]
+//|===
+//3+|Nom du composant
+//
+//|Form
+//|Panel
+//|Heading
+//
+//|Radio
+//|<<Button>>
+//|Checkbox
+//
+//|Dropdown
+//|Group
+//|ListBox
+//
+//|Item
+//|ListView
+//|
+//
+//|DataGrid
+//|Row
+//|Column
+//
+//|Cell
+//|Link
+//|Image
+//
+//|TextField
+//|EmailField
+//|PasswordField
+//
+//|ColorField
+//|SearchField
+//|URLField
+//
+//|DateField
+//|MonthField
+//|WeekField
+//
+//|NumberField
+//|PhoneField
+//|RangeField
+//
+//|TimeField
+//|
+//|
+//|===

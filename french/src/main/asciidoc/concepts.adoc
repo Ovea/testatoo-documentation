@@ -1,0 +1,14 @@
+== Les concepts
+
+Testatoo repose sur 4 concepts:
+
+include::domaine.adoc[]
+
+include::langage.adoc[]
+
+include::interactions.adoc[]
+
+include::intentions.adoc[]
+
+
+
